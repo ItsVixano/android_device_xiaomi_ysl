@@ -196,6 +196,10 @@ PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
+# Fwk-detect
+PRODUCT_PACKAGES += \
+    libqti_vndfwk_detect
+
 # GPS
 PRODUCT_PACKAGES += \
     libwifi-hal-ctrl
