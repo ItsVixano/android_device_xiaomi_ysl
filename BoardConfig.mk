@@ -173,7 +173,6 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
 TARGET_PER_MGR_ENABLED := true
 
 # Power
-TARGET_USES_INTERACTION_BOOST := true
 TARGET_TAP_TO_WAKE_NODE := "/dev/input/event1"
 
 # Qualcomm
