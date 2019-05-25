@@ -53,9 +53,9 @@
       <value>76</value>
   </array>
   <!-- Current when CPU is awake -->
-  <item name="cpu.awake">4</item>
+  <item name="cpu.idle">4</item>
   <!-- Current when CPU is idle -->
-  <item name="cpu.idle">3</item>
+  <item name="cpu.suspend">3</item>
   <!-- This is the battery capacity in mAh (measured at nominal voltage) -->
   <item name="battery.capacity">3080</item>
   <!-- Bluetooth stuffs extracted from stock power profile -->
