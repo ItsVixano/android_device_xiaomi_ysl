@@ -194,7 +194,7 @@ VENDOR_SECURITY_PATCH := 2020-08-05
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 
 # Sepolicy
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # We modify several neverallows, so let the build proceed
 ifneq ($(TARGET_BUILD_VARIANT),user)
