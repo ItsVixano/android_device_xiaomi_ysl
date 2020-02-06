@@ -382,7 +382,8 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    vndk_package
+    vndk_package \
+    com.android.vndk.current.on_vendor
 
 # Vibrator
 PRODUCT_PACKAGES += \
