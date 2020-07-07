@@ -43,6 +43,9 @@
     -->
     <fraction name="config_maximumScreenDimRatio">29.999996%</fraction>
 
+    <!-- Is the MultiColor LED Is Supported -->
+    <bool name="config_multiColorBatteryLed">false</bool>
+
     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
          for debouncing the light sensor.  Different constants are used to debounce the light sensor
          when adapting to brighter or darker environments.  This parameter controls how quickly
