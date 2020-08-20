@@ -336,12 +336,14 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.target.rc \
     ueventd.qcom.rc \
+    init.camera.rc \
     init.goodix.sh \
     init.recovery.qcom.rc \
     init.recovery.qcom.usb.rc \
     init.ysl.rc
 
 PRODUCT_PACKAGES += \
+    init.camera.sh \
     init.qcom.bt.sh \
     init.qcom.post_boot.sh \
     move_time_data.sh \
