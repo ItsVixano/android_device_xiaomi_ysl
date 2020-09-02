@@ -799,11 +799,6 @@ vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|07bf28004086b972367c44703bd02
 # Charger - from tissot-user 9 PKQ1.180917.001 V10.0.24.0.PDHMIXM release-keys
 vendor/bin/hvdcp_opti|7ee82dd264c7c349fb498111a61d5009ae9f0da2
 
-# Display Calibration - from Ysl PKQ1.181203.001/V10.3.2.0.PEFCNXM
-vendor/etc/qdcm_calib_data_auo_ili7807d_hd720_video_mode_dsi_panel.xml|8cd52f81d46ed55f122403820c7537c077b458c6
-vendor/etc/qdcm_calib_data_shenchao_ili9881c_hd720p_video_mode_dsi_panel.xml|d1cf2fb115f8ba6cdf39b8d525ef40cd23698e93
-vendor/etc/qdcm_calib_data_truly_hx8394f_hd720_video_mode_dsi_panel.xml|44952f048a2288a7373b5200ea8e153e06450895
-
 # DPM - from LA.UM.9.6.2.r1-03600-89xx.0
 framework/tcmclient.jar|cdd1ea7143a5a7acc3909b5cfa706650179647c7
 system_ext/bin/dpmd|11ee284b40fb8276636520a3ca8e3558be914e62
