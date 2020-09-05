@@ -623,9 +623,9 @@ vendor/lib/vendor.qti.hardware.fingerprint@1.0.so|e45afb2eb55d1efec89e4789f7bc6a
 # ConsumerIr - from onclite patched
 vendor/lib64/hw/consumerir.default.so|23729cc5934cdc80a1ad221c8e85b29aa428ac2c
 
-# QC RIL - from LA.UM.8.6.2.r1-07600-89xx.0
-vendor/bin/hw/qcrild|55a9c79ca552f4b9f0084afaae408d005cc445c2
+# QC RIL - from LA.UM.8.6.2.r1-08400-89xx.0
+vendor/bin/hw/qcrild|e6388657a78502c6211ff7dd54d1edbc7e97f148
 vendor/etc/init/qcrild.rc|f9c32f5e7a8e7f4a0df1dcce174de169b8d7c060
-vendor/lib64/libqcrilFramework.so|1d257097226095d7f976479bff0beafca85c8b3a
-vendor/lib64/libril-qc-hal-qmi.so|810d94acb1086711336f04084543c8fbf1cc9843
+vendor/lib64/libqcrilFramework.so|7d51b9b1d28c3b09aa8b76251c5831b8275dcc6d
+vendor/lib64/libril-qc-hal-qmi.so|4b93df3dd320dc6100e3199cd26f21704ca9c2bb
 vendor/lib64/qcrild_librilutils.so|22ae52ea7750c9011e3880852d800d94d54b030e
