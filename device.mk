@@ -354,6 +354,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     device/xiaomi/ysl
 
+# Signapk
+PRODUCT_HOST_PACKAGES += \
+    signapk
+
 # TextClassifier smart selection model files
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
