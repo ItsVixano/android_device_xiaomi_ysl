@@ -404,6 +404,7 @@ PRODUCT_PACKAGES += \
 # VNDK
 PRODUCT_PACKAGES += \
     vndk_package \
+    vndk-ext \
     com.android.vndk.current.on_vendor
 
 PRODUCT_COPY_FILES += \
