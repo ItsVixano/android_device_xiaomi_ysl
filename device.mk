@@ -141,6 +141,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@1.0_vendor \
     android.frameworks.displayservice@1.0 \
+    libdng_sdk.vendor \
     Snap
 
 # Configstore
