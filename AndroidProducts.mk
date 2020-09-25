@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ysl.mk
+    $(LOCAL_DIR)/revengeos_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_ysl-user \
-    lineage_ysl-userdebug \
-    lineage_ysl-eng
+    revengeos_ysl-user \
+    revengeos_ysl-userdebug \
+    revengeos_ysl-eng
