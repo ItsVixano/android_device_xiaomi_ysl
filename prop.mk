@@ -72,7 +72,6 @@ camera.display.umax=1920x1080 \
 camera.hal1.packagelist=com.skype.raider,com.google.android.talk \
 vendor.camera.lowpower.record.enable=1 \
 media.camera.ts.monotonic=1 \
-persist.camera.gyro.disable=0 \
 persist.camera.isp.clock.optmz=0 \
 persist.camera.stats.test=5 \
 persist.camera.HAL3.enabled=1 \
