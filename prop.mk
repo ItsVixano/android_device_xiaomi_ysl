@@ -67,8 +67,6 @@ debug.sf.disable_backpressure=1
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-camera.display.lmax=1280x720 \
-camera.display.umax=1920x1080 \
 camera.hal1.packagelist=com.skype.raider,com.google.android.talk \
 vendor.camera.lowpower.record.enable=1 \
 media.camera.ts.monotonic=1 \
@@ -77,6 +75,8 @@ persist.camera.stats.test=5 \
 persist.camera.HAL3.enabled=1 \
 persist.camera.dual.camera=0 \
 persist.camera.eis.enable=1 \
+persist.vendor.camera.display.lmax=1280x720 \
+persist.vendor.camera.display.umax=1920x1080 \
 persist.vendor.qti.telephony.vt_cam_interface=2 \
 vidc.enc.dcvs.extra-buff-count=2 \
 vendor.camera.aux.packageblacklist=com.discord \
