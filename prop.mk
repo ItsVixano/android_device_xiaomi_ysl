@@ -75,8 +75,7 @@ persist.vendor.qti.telephony.vt_cam_interface=2 \
 vidc.enc.dcvs.extra-buff-count=2 \
 vendor.camera.aux.packageblacklist=com.discord \
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera2,com.google.android.GoogleCamera \
-vendor.camera.aux.packagelist2=com.google.android.GoogleCameraWide,com.dual.GCam,com.Wide.GCam,com.Tele.GCam \
-vendor.camera.hal1.packagelist=com.whatsapp \
+vendor.camera.aux.packagelist2=com.google.android.GoogleCameraWide,com.dual.GCam,com.Wide.GCam,com.Tele.GCam
 
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
