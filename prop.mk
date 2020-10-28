@@ -207,6 +207,7 @@ persist.vendor.cne.logging.qxdm=3974
 
 # SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
 ro.surface_flinger.protected_contents=true
 
 PRODUCT_PROPERTY_OVERRIDES += \
