@@ -18,9 +18,6 @@
 
 set -e
 
-INITIAL_COPYRIGHT_YEAR=2019
-
-# Required!
 export DEVICE=ysl
 export DEVICE_COMMON=msm8953-common
 export VENDOR=xiaomi
@@ -38,29 +35,39 @@ if [ ! -f "$HELPER" ]; then
 fi
 . "$HELPER"
 
-# Initialize the helper
-setup_vendor "$DEVICE_COMMON" "$VENDOR" "$LINEAGE_ROOT" true
+# Default to sanitizing the vendor folder before extraction
+CLEAN_VENDOR=true
 
-# Copyright headers and guards
-write_headers "ysl"
+while [ "$1" != "" ]; do
+    case $1 in
+        -n | --no-cleanup )     CLEAN_VENDOR=false
+                                ;;
+        -s | --section )        shift
+                                SECTION=$1
+                                CLEAN_VENDOR=false
+                                ;;
+        * )                     SRC=$1
+                                ;;
+    esac
+    shift
+done
 
-# The standard common blobs
-write_makefiles "$MY_DIR"/proprietary-files-qc.txt true
-
-# We are done!
-write_footers
-
-if [ -s "$MY_DIR"/../"$DEVICE"/proprietary-files.txt ]; then
-    # Reinitialize the helper for device
-    INITIAL_COPYRIGHT_YEAR="$DEVICE_BRINGUP_YEAR"
-    setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT" false
-
-    # Copyright headers and guards
-    write_headers
-
-    # The standard device blobs
-    write_makefiles "$MY_DIR"/../"$DEVICE"/proprietary-files.txt true
-
-    # We are done!
-    write_footers
+if [ -z "$SRC" ]; then
+    SRC=adb
 fi
+
+# Initialize the helper
+setup_vendor "$DEVICE_COMMON" "$VENDOR" "$REVENGEOS_ROOT" true "$CLEAN_VENDOR"
+
+extract "$MY_DIR"/proprietary-files-qc.txt "$SRC" "$SECTION"
+
+if [ -s "$MY_DIR"/proprietary-files.txt ]; then
+    # Reinitialize the helper for device
+    setup_vendor "$DEVICE" "$VENDOR" "$REVENGEOS_ROOT" false "$CLEAN_VENDOR"
+
+    extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
+fi
+
+DEVICE_BLOB_ROOT="$REVENGEOS_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
+
+"$MY_DIR"/setup-makefiles.sh
