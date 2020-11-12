@@ -99,7 +99,7 @@ service vendor.per_mgr /vendor/bin/pm-service
     ioprio rt 4
     writepid /dev/cpuset/system-background/tasks
 	
-service vendor.power-hal-1-2 /vendor/bin/hw/android.hardware.power@1.2-service-qti
+service vendor.power-hal /vendor/bin/hw/android.hardware.power-service-qti
     override
     class hal
     user system
