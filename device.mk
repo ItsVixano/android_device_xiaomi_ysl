@@ -178,6 +178,7 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libgenlock \
     libtinyxml \
+    libstagefright_enc_common \
     libvulkan \
     vendor.display.config@2.0 \
     vendor.display.config@2.0.vendor
