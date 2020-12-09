@@ -172,13 +172,15 @@ PRODUCT_PACKAGES += \
     memtrack.msm8953 \
     libdisplayconfig \
     liboverlay \
-    libdisplayconfig.vendor \
+    libdisplayconfig.qti.vendor \
     libqdMetaData \
     libqdMetaData.vendor \
     libqdMetaData.system \
     libgenlock \
     libtinyxml \
-    libvulkan
+    libvulkan \
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor
 
 # Doze mode
 PRODUCT_PACKAGES += \
