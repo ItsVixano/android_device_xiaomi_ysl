@@ -12,3 +12,5 @@ allow mm-qcamerad vendor_camera_data_file:file { create write open getattr };
 allow mm-qcamerad vendor_camera_data_file:file { getattr };
 allow mm-qcamerad diag_device:chr_file { ioctl open read write };
 allow mm-qcamerad vendor_default_prop:property_service set;
+
+get_prop(mm-qcamerad, camera_prop)
