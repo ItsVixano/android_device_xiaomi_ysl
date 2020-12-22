@@ -40,21 +40,18 @@ vendor.voice.conc.fallbackpath=deep-buffer \
 vendor.voice.path.for.pcm.voip=true \
 vendor.voice.playback.conc.disabled=true \
 vendor.voice.record.conc.disabled=false \
-vendor.voice.voip.conc.disabled=true
+vendor.voice.voip.conc.disabled=true \
+vendor.audio.feature.a2dp_offload.enable=false
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
-bluetooth.hfp.client=1 \
-qcom.bluetooth.soc=smd \
-ro.bluetooth.hfp.ver=1.7 \
-ro.qualcomm.bt.hci_transport=smd \
-ro.bluetooth.a2dp_offload.supported=false \
+persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac \
 persist.bluetooth.a2dp_offload.disabled=true \
-persist.bluetooth.bluetooth_audio_hal.disabled=true \
-vendor.audio.feature.a2dp_offload.enable=false \
+persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive \
 persist.vendor.qcom.bluetooth.enable.splita2dp=false \
-persist.vendor.bt.a2dp.aac_whitelist=false \
-ro.bluetooth.library_name=libbluetooth.so
+persist.vendor.qcom.bluetooth.soc=pronto \
+ro.bluetooth.a2dp_offload.supported=false \
+vendor.qcom.bluetooth.soc=pronto
 
 # BPF
 PRODUCT_PROPERTY_OVERRIDES += \
