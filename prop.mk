@@ -252,6 +252,7 @@ debug.sf.phase_offset_threshold_for_next_vsync_ns=11600000
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.timed.enable=true \
 persist.vendor.delta_time.enable=true \
+persist.backup.ntpServer=0.pool.ntp.org \
 persist.delta_time.enable=true
 
 # Tcp
