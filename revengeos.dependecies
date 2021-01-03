@@ -1,0 +1,14 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "ItsVixano/android_vendor_xiaomi_ysl",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "r11.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "stormbreaker-project/kernel_xiaomi_ysl",
+        "target_path":  "kernel/xiaomi/ysl",
+        "revision":     "stx"
+    }
+]
