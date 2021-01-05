@@ -40,7 +40,7 @@
     <bool translatable="false" name="config_wifi_fast_bss_transition_enabled">true</bool>
 
     <!-- Boolean indicating whether the wifi chipset has 5GHz frequency band support -->
-    <bool translatable="false" name="config_wifi5ghzSupport">true</bool>
+    <bool translatable="false" name="config_wifi5ghzSupport">false</bool>
 
     <!-- Indicates that a full bugreport should be triggered when wifi diagnostics detects an error on non-user (i.e debug) builds -->
     <bool translatable="false" name="config_wifi_diagnostics_bugreport_enabled">true</bool>
