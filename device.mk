@@ -99,7 +99,8 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
-    libvolumelistener
+    libvolumelistener \
+    libnbaio
 
 # A2DP
 PRODUCT_PACKAGES += \
