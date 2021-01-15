@@ -64,15 +64,6 @@ vendor/lib64/soundfx/libaudiopreprocessing.so|28e2f7f8ab01a6cc8bc60a278e93704755
 vendor/lib64/soundfx/libqcbassboost.so|0d2afd6f2c5b9aa2397f3e1cb3287bf906cf8fb6
 vendor/lib64/soundfx/libqcvirt.so|bb046694512d412d6a04bd95ccb2b573454d9717
 
-# Audio dirac - from xiaomi
-lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
-lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
-vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
-
-# Audiosphere
-lib/soundfx/libasphere.so
-lib64/soundfx/libasphere.so
-
 # ANT+ (vendor)
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
 
@@ -277,6 +268,12 @@ vendor/lib64/vendor.qti.esepowermanager@1.0.so|b5b39c4f3aedc09bced70f0348980e3ec
 vendor/lib/hw/gatekeeper.msm8953.so|c153dbbd2c31ccee8633837961ce79909257af04
 vendor/lib64/hw/gatekeeper.msm8953.so|2982026cfb7911d279bd4c9be3a02ad21cdb54ec
 
+# Gatekeeper - from sakura pie
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|eeb4ba9eacb57c958051a47d307968254ee081d0
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|56be1bda02a5b7482525e6597c74a5aad162c721
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|23ea2258775e3ba5150afdc2f567d47db3ad5010
+
 # GPS - from LA.UM.8.6.2.r1-07600-89xx.0
 vendor/bin/garden_app|666cbf8b4dcc31b84aa62d374fc3f662f5347a71
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti|8c679afa2f2c19afab0aecbd57efad1a7c3e1e4f
@@ -409,6 +406,18 @@ vendor/bin/ipacm-diag
 # Keystore - from LA.UM.8.6.2.r1-06600-89xx.0
 vendor/lib/hw/keystore.msm8953.so|9be4c88926ebed98b2b23725f8118ff9d0bbb2d6
 vendor/lib64/hw/keystore.msm8953.so|9f4d991dfa359299739bd443b63731528d9cb5d0
+
+# Keymaster - from sakura pie
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|023a0e237fbc068a3191e91e5a1ec0ea5831d52b
+vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|81fcc03daff3d4d0bd205abe7dce89f68ee9e72c
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|4df4634632c36bd48ccc9de73b77713cd658b012
+vendor/lib/libkeymasterdeviceutils.so|1860ef88bd3d007329b1ce1938fd9e4c1aba0c4e
+vendor/lib/libkeymasterprovision.so|900ee91eb14e6184f6e92df0e1dd65217306e6e3
+vendor/lib/libkeymasterutils.so|7e5e92470b5e7e42557cd07e4cd8873499df0346
+vendor/lib64/libkeymasterdeviceutils.so|3b4d1b97549b15d85254739613fc8d772f716806
+vendor/lib64/libkeymasterprovision.so|7ad925d46a558a8c086a61e022eef328b2516f43
+vendor/lib64/libkeymasterutils.so|4c8273711b5ba1a503d4581f661ed20a1578810d
 
 # Latency - from LA.UM.8.6.2.r1-07600-89xx.0
 product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|c6c5d5bbf50b068df0184aef8551b95daa5f4791

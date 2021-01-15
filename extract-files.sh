@@ -17,11 +17,56 @@
 
 set -e
 
-# Required!
 export DEVICE=ysl
 export DEVICE_COMMON=msm8953-common
 export VENDOR=xiaomi
 
-export DEVICE_BRINGUP_YEAR=2019
+# Load extract_utils and do some sanity checks
+MY_DIR="${BASH_SOURCE%/*}"
+if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
-./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
+ROOT="$MY_DIR"/../../..
+
+HELPER="$ROOT"/tools/extract-utils/extract_utils.sh
+if [ ! -f "$HELPER" ]; then
+    echo "Unable to find helper script at $HELPER"
+    exit 1
+fi
+. "$HELPER"
+
+# Default to sanitizing the vendor folder before extraction
+CLEAN_VENDOR=true
+
+while [ "$1" != "" ]; do
+    case $1 in
+        -n | --no-cleanup )     CLEAN_VENDOR=false
+                                ;;
+        -s | --section )        shift
+                                SECTION=$1
+                                CLEAN_VENDOR=false
+                                ;;
+        * )                     SRC=$1
+                                ;;
+    esac
+    shift
+done
+
+if [ -z "$SRC" ]; then
+    SRC=adb
+fi
+
+# Initialize the helper
+setup_vendor "$DEVICE_COMMON" "$VENDOR" "$ROOT" true "$CLEAN_VENDOR"
+
+extract "$MY_DIR"/proprietary-files-qc.txt "$SRC" "$SECTION"
+
+if [ -s "$MY_DIR"/proprietary-files.txt ]; then
+    # Reinitialize the helper for device
+    setup_vendor "$DEVICE" "$VENDOR" "$ROOT" false "$CLEAN_VENDOR"
+
+    extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
+fi
+
+DEVICE_BLOB_ROOT="$ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
+
+"$MY_DIR"/setup-makefiles.sh
