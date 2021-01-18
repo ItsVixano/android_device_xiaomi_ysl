@@ -67,9 +67,9 @@ vendor/lib64/soundfx/libqcvirt.so|bb046694512d412d6a04bd95ccb2b573454d9717
 # ANT+ (vendor) - from LA.UM.8.6.2.r1-03700-89xx.0
 vendor/lib64/com.qualcomm.qti.ant@1.0.so|29ecc1a9134dd2146f358e65c830059d3fa6c6d9
 
-# Bluetooth (aptX) - from crosshatch QP1A.190711.020
-lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
-lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
+# Bluetooth (aptX) - from redfin RQ1A.210105.003
+system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
 # Bluetooth - from LA.UM.8.6.2.r1-07600-89xx.0
 -lib/libbtconfigstore.so|eeab5725457493c975bd6d2f2790fec778eaf2fc
