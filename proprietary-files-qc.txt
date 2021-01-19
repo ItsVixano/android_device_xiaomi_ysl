@@ -64,8 +64,8 @@ vendor/lib64/soundfx/libaudiopreprocessing.so|28e2f7f8ab01a6cc8bc60a278e93704755
 vendor/lib64/soundfx/libqcbassboost.so|0d2afd6f2c5b9aa2397f3e1cb3287bf906cf8fb6
 vendor/lib64/soundfx/libqcvirt.so|bb046694512d412d6a04bd95ccb2b573454d9717
 
-# ANT+ (vendor)
-vendor/lib64/com.qualcomm.qti.ant@1.0.so
+# ANT+ (vendor) - from LA.UM.8.6.2.r1-03700-89xx.0
+vendor/lib64/com.qualcomm.qti.ant@1.0.so|29ecc1a9134dd2146f358e65c830059d3fa6c6d9
 
 # Bluetooth (aptX) - from crosshatch QP1A.190711.020
 lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
@@ -101,18 +101,18 @@ vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so|b6e5d67869138d102595dd0356
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|e9cffc642dc8f15492ca316c276e02c7e146b90d
 vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so|fe0c94096ad70472271c0093ce6be226f74e40f4
 
-# Camera firmware
-vendor/firmware/cpp_firmware_v1_8_0.fw
-vendor/firmware/cpp_firmware_v1_5_0.fw
-vendor/firmware/cpp_firmware_v1_6_0.fw
-vendor/firmware/cpp_firmware_v1_2_0.fw
-vendor/firmware/cpp_firmware_v1_4_0.fw
-vendor/firmware/cpp_firmware_v1_1_1.fw
-vendor/firmware/cpp_firmware_v1_5_1.fw
-vendor/firmware/cpp_firmware_v1_12_0.fw
-vendor/firmware/cpp_firmware_v1_10_0.fw
-vendor/firmware/cpp_firmware_v1_5_2.fw
-vendor/firmware/cpp_firmware_v1_1_6.fw
+# Camera firmware - from tissot pie
+vendor/firmware/cpp_firmware_v1_8_0.fw|26e2badbb4e3049243f0a176722f26879e7b87e8
+vendor/firmware/cpp_firmware_v1_5_0.fw|ac19cd179b7b118bb3ea01a35fdfc78dc58164a1
+vendor/firmware/cpp_firmware_v1_6_0.fw|dcd3d1f904c7ee3d731f8f28b5f78f2503916ada
+vendor/firmware/cpp_firmware_v1_2_0.fw|5ff0d66bcdbb29f4e924d011ae825583e48b3962
+vendor/firmware/cpp_firmware_v1_4_0.fw|11eba982212797920102912142940a9e08931c52
+vendor/firmware/cpp_firmware_v1_1_1.fw|04b8eb253d630eaeadab296e1607dc6a29d93d3c
+vendor/firmware/cpp_firmware_v1_5_1.fw|f3f622ab29a560b170d0f2c6ddec14b933f2d476
+vendor/firmware/cpp_firmware_v1_12_0.fw|de18ccdf371824059acfdf3c7754c6e1bc1c2f8c
+vendor/firmware/cpp_firmware_v1_10_0.fw|cf9458601aa4bbe9c57acfc1c7d0f158386ace9f
+vendor/firmware/cpp_firmware_v1_5_2.fw|58dd7f7c09dbb62bc6f334a8885064b292610675
+vendor/firmware/cpp_firmware_v1_1_6.fw|6b2c9fe0a43a9ce86a921e18faffe4d0a35746ee
 
 # CDSP - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
 vendor/bin/cdsprpcd|a1b4c35ffdef184cc1334f3d1cf4fa56546d3621
@@ -217,8 +217,8 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|dfedda144d19622e3e579186033da2b
 vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|c0cc6212b3c0dbe51544c012dc21971caea13466
 vendor/lib64/vendor.qti.latency@2.0.so|72645a214e8675680862af236420d8195651f29d
 
-# Charger
-vendor/bin/hvdcp_opti
+# Charger - from tissot pie
+vendor/bin/hvdcp_opti|7ee82dd264c7c349fb498111a61d5009ae9f0da2
 
 # DPM - from LA.UM.8.6.2.r1-08400-89xx.0
 framework/tcmclient.jar|6ef9ca98f67c144fc8ae941bb3a47f99cbd93098
@@ -384,13 +384,13 @@ vendor/lib64/libsdm-diag.so|db4c495e3e64ea0cbc0d079a2aa16862a9b02192
 vendor/lib64/libsdmextension.so|ebb998d26b322affc9694049e6bdd94fdd7267a1
 vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 
-# Graphics firmware
-vendor/firmware/a506_zap.b00
-vendor/firmware/a506_zap.b01
-vendor/firmware/a506_zap.b02
-vendor/firmware/a506_zap.mdt
-vendor/firmware/a530_pfp.fw
-vendor/firmware/a530_pm4.fw
+# Graphics firmware - from LA.UM.8.6.2.r1-03700-89xx.0
+vendor/firmware/a506_zap.b00|c45a7b34456844f5deb73e2dce79cbfcfb9ae71c
+vendor/firmware/a506_zap.b01|00a618f9ecde71e169200fbdc60428c81bab144c
+vendor/firmware/a506_zap.b02|b79957c47f0a6757ac1d721dbe06551508454634
+vendor/firmware/a506_zap.mdt|2945f21b47cf35bf22d8cb68e937c34ea64212c0
+vendor/firmware/a530_pfp.fw|448f9db8271fefb08348cbc50409e8e95bd93f78
+vendor/firmware/a530_pm4.fw|5741a28752355b478d455635bab008028ff7e1c6
 
 # IOP - from LA.UM.8.6.2.r1-07600-89xx.0
 vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|6e42e6b3555e47c730a69fd5522099c5729b272a
@@ -402,8 +402,8 @@ vendor/lib64/libqti-iopd-client.so|fc9878267908f9843882891f902c4d37fee760dd
 vendor/lib64/vendor.qti.hardware.iop@1.0.so|2f320d5b31a8d90ead4f1063435ff6608b3b144f
 vendor/lib64/vendor.qti.hardware.iop@2.0.so|7fdc8d9219a6d7a335fc91edb4837bccbac9fc49
 
-# Ipacm
-vendor/bin/ipacm-diag
+# Ipacm - from tissot V10.0.12.0.PDHMIXM
+vendor/bin/ipacm-diag|9300f8da22941c2bfacc2ff96f83f2beebd4dcc1
 
 # Keystore - from LA.UM.8.6.2.r1-06600-89xx.0
 vendor/lib/hw/keystore.msm8953.so|9be4c88926ebed98b2b23725f8118ff9d0bbb2d6
@@ -792,18 +792,18 @@ vendor/lib64/libscvePanorama_lite.so|66a74d3b441bb2e8e5011187f0b2e40bcb77693c
 vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|f0fd75e94929412ae02cb32c38b05faef8cfd259
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|ad0bfe312f3d63cf5414087fb2aef4459ec72183
 
-# Sensors
-vendor/bin/sensors.qti
-vendor/lib/hw/activity_recognition.msm8953.so
-vendor/lib/libsensor1.so
-vendor/lib/libsensor_reg.so
-vendor/lib/libsensor_user_cal.so
-vendor/lib/sensors.ssc.so
-vendor/lib64/hw/activity_recognition.msm8953.so
-vendor/lib64/libsensor1.so
-vendor/lib64/libsensor_reg.so
-vendor/lib64/libsensor_user_cal.so
-vendor/lib64/sensors.ssc.so
+# Sensors - from tissot V10.0.12.0.PDHMIXM
+vendor/bin/sensors.qti|a2294878cef6ab4a6e51968e88799585c7d456fd
+vendor/lib/hw/activity_recognition.msm8953.so|f9247646a5e2b28473753da06f832ae5f702f7c4
+vendor/lib/libsensor1.so|48727a05c1b91051d5ec53860124f1f1c0d8ca53
+vendor/lib/libsensor_reg.so|8ae3b9d1a54feb9f0af55a8fff50410f53660318
+vendor/lib/libsensor_user_cal.so|df85342393b56994b4f4b4c33aad97928bc6f023
+vendor/lib/sensors.ssc.so|c4b5ee167e5b06fde7143007b87ea5dbe90b0565
+vendor/lib64/hw/activity_recognition.msm8953.so|5531da4cf2451f899602fb7e3f0e80775bb7e5ff
+vendor/lib64/libsensor1.so|48dedf69781fb146fc35e622f1c80a635530da22
+vendor/lib64/libsensor_reg.so|74659858f5abcfa0d8c826af2e2e46addc9f5f87
+vendor/lib64/libsensor_user_cal.so|92de798c64f9e23ca1069a5a4bec5895fafa9a22
+vendor/lib64/sensors.ssc.so|3d6eed945ab3ec2d91517cd6e9941df17a290445
 
 # Soter - from LA.UM.8.6.2.r1-07600-89xx.0
 product/framework/vendor.qti.hardware.soter-V1.0-java.jar|e0a20a638cac4e369a29157ea4aa44b1e5d60f8f
@@ -841,8 +841,8 @@ vendor/lib/mediadrm/libwvdrmengine.so|248970aba6bd653fda3ce2da5d71e1ee0cea656d
 vendor/lib64/libwvhidl.so|72ebe6aa5c8f5a681979423149896b3d2201d974
 vendor/lib64/mediadrm/libwvdrmengine.so|449c86e23afe6f3f0055e3b2f9af4ecc23afabca
 
-# Wi-Fi
-vendor/bin/wcnss_service
+# Wi-Fi - from tissot V10.0.12.0.PDHMIXM
+vendor/bin/wcnss_service|f8ecd38a41b6b7f832380b489e0c9804c34174d8
 
 # Wi-Fi Display - from LA.UM.8.6.2.r1-07600-89xx.0
 bin/wfdservice|934817e5689fe6f8b54032902de58c203b8ec2e7
