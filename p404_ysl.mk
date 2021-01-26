@@ -27,16 +27,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/ysl/device.mk)
 
-# Inherit some common RevengeOS stuff.
-$(call inherit-product, vendor/revengeos/config/common.mk)
+# Inherit some common 404 stuff.
+$(call inherit-product, vendor/404/configs/common.mk)
 
-# Inherit some common RevengeOS flags
-REVENGEOS_BUILDTYPE := OFFICIAL
+# Inherit some common 404 flags
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
-PRODUCT_NAME := revengeos_ysl
+PRODUCT_NAME := p404_ysl
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi S2

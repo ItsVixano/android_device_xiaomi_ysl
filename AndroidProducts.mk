@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_ysl.mk
+    $(LOCAL_DIR)/p404_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_ysl-user \
-    revengeos_ysl-userdebug \
-    revengeos_ysl-eng
+    p404_ysl-user \
+    p404_ysl-userdebug \
+    p404_ysl-eng
