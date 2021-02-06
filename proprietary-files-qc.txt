@@ -831,8 +831,8 @@ vendor/lib64/libscvePanorama_lite.so|66a74d3b441bb2e8e5011187f0b2e40bcb77693c
 vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|f0fd75e94929412ae02cb32c38b05faef8cfd259
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|ad0bfe312f3d63cf5414087fb2aef4459ec72183
 
-# Sensors - from tissot V10.0.12.0.PDHMIXM
-vendor/bin/sensors.qti|a2294878cef6ab4a6e51968e88799585c7d456fd
+# Sensors - from tissot-user 9 PKQ1.180917.001 V10.0.24.0.PDHMIXM release-keys
+vendor/bin/sensors.qti|3f6368e8d7484f5610fbf899dbe2a95e7cd6855e
 vendor/lib/hw/activity_recognition.msm8953.so|f9247646a5e2b28473753da06f832ae5f702f7c4
 vendor/lib/libsensor1.so|48727a05c1b91051d5ec53860124f1f1c0d8ca53
 vendor/lib/libsensor_reg.so|8ae3b9d1a54feb9f0af55a8fff50410f53660318
