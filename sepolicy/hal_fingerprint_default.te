@@ -38,4 +38,14 @@ allow hal_fingerprint_default init:unix_stream_socket { connectto };
 allow hal_fingerprint_default sdcardfs:file { getattr };
 allow hal_fingerprint_default sdcardfs:dir { search };
 allow hal_fingerprint_default rootfs:dir { read };
-
+allow hal_fingerprint_default sysfs_leds:dir { open };
+allow hal_fingerprint_default sysfs_leds:dir { read };
+allow hal_fingerprint_default sysfs_leds:dir { search };
+allow hal_fingerprint_default media_rw_data_file:dir { open read };
+allow hal_fingerprint_default media_rw_data_file:file getattr;
+allow hal_fingerprint_default sdcardfs:dir { open read };
+allow hal_fingerprint_default sdcardfs:file { append open read };
+allow hal_fingerprint_default default_android_hwservice:hwservice_manager add;
+allow hal_fingerprint_default hal_perf_hwservice:hwservice_manager find;
+allow hal_fingerprint_default sysfs_leds:file { open read };
+allow hal_fingerprint_default system_prop:property_service set;
