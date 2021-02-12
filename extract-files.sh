@@ -18,7 +18,6 @@
 set -e
 
 export DEVICE=ysl
-export DEVICE_COMMON=msm8953-common
 export VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
@@ -56,16 +55,9 @@ if [ -z "$SRC" ]; then
 fi
 
 # Initialize the helper
-setup_vendor "$DEVICE_COMMON" "$VENDOR" "$ROOT" true "$CLEAN_VENDOR"
+setup_vendor "$DEVICE" "$VENDOR" "$ROOT" false "$CLEAN_VENDOR"
 
-extract "$MY_DIR"/proprietary-files-qc.txt "$SRC" "$SECTION"
-
-if [ -s "$MY_DIR"/proprietary-files.txt ]; then
-    # Reinitialize the helper for device
-    setup_vendor "$DEVICE" "$VENDOR" "$ROOT" false "$CLEAN_VENDOR"
-
-    extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
-fi
+extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
 
 DEVICE_BLOB_ROOT="$ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
 
