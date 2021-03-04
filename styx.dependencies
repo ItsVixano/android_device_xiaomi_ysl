@@ -1,0 +1,38 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "ItsVixano/android_vendor_xiaomi_ysl",
+        "target_path":  "vendor/xiaomi/ysl",
+        "revision":     "styx-r"
+    },
+    {
+        "remote":       "github",
+        "repository":   "ItsVixano/android_kernel_xiaomi_ysl",
+        "target_path":  "kernel/xiaomi/ysl",
+        "revision":     "eleven"
+    },
+    {
+        "remote":       "github",
+        "repository":   "wave-project/vendor_codeaurora_telephony",
+        "target_path":  "vendor/codeaurora/telephony",
+        "revision":     "r"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Jabiyeff/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom-caf/msm8996/media",
+        "revision":     "caf-msm8996-r"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Jabiyeff/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom-caf/msm8996/display",
+        "revision":     "caf-msm8996-r"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom-caf/msm8996/audio",
+        "revision":     "lineage-18.1-caf-msm8996"
+    }
+]
