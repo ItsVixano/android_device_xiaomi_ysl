@@ -174,6 +174,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8953 \
     memtrack.msm8953 \
     libdisplayconfig \
+    libdisplayconfig.qti \
     libdisplayconfig.qti.vendor \
     libqdMetaData \
     libqdMetaData.vendor \
