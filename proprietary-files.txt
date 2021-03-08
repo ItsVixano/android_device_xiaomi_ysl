@@ -570,34 +570,24 @@ vendor/lib/libmmcamera_ysl_s5k5e8_aux_sunny_ii_eeprom.so|1c33b14878e905ad1fedc92
 vendor/bin/mm-qcamera-daemon|c11a1df586110846b68d8792bf57a5ebf89c32ef
 
 # Camera QCOM Libraries - from Ysl PKQ1.181203.001/V10.3.2.0.PEFCNXM
-vendor/lib/libarcsoft_beautyshot.so|545db9c6f8c24cb4c2df44074ff334d0e7a41c8b
-vendor/lib/libarcsoft_dualcam_refocus.so|e9407e0936fc436ccc4102271fe2da3ca0a19cfd
 vendor/lib/libarcsoft_high_dynamic_range.so|33cf4d4189dc15c9a54a3c8b03ce2283c0000c54
-vendor/lib/libFaceGrade.so|6f1626384251517f046aeec68dd897c3941215c9
 vendor/lib/libflash_pmic.so|e3eeb71ddb5a78c082c2e659e3cd789e8e2b1311
 vendor/lib/libjpegdhw.so|8e4a9af4d5787164dc0ef198564a8dd61d4e36ad
 vendor/lib/libjpegdmahw.so|3cea94a230d2ee422120f2950a050bc485ae94c9
 vendor/lib/libjpegehw.so|99a902059a3d1c4cf26c1b5552fedf51258c8aae
-vendor/lib/lib_lowlight.so|b293f15dbb0ad75debcfd9e62cc329727a724afe
 vendor/lib/libmibokeh_8953.so|8d98f3e5b52b9b18d540fd6b201dec34f7d49233
 vendor/lib/libMiWatermark.so|d2a144b493ebdd0cdbcee6686be4384d696ae486
 vendor/lib/libmmcamera_interface.so|b4501b7402c7de6a675129a0395f2de6c34be6ae
-vendor/lib/libmmjpeg_interface.so|d04a688ac2ec7df09b5901fdd7b92e23ef39ded7
 vendor/lib/libmmjpeg.so|3890706ee48edaebae058706e24ed973f98cc558
-vendor/lib/libmm-qcamera.so|3d6937faa4e358b021d26397d3d4dedfb6f6db00
 vendor/lib/libmmqjpeg_codec.so|d4d56e123f9900677ae6cfe3d71bed3d6c497e25
 vendor/lib/libmmqjpegdma.so|bf3a5ccc1dab524f713316a27f92ea1233692b21
-vendor/lib/libmpbase.so|431479c51fe23e1def5e8e50aea34975f19ba41a
-vendor/lib/libqomx_core.so|cf551b7d765bc01d0b0a5030d96dfd5c5652f783
 vendor/lib/libqomx_jpegdec.so|47b115f75f3a5331b3560188dafe7d2ac5fdccaa
 vendor/lib/libqomx_jpegenc_pipe.so|f468ad5fa56687b86d882752b560191516645b5a
 vendor/lib/libqomx_jpegenc.so|bbb111e1b78232fd7c84a66bace331fba783024f
 vendor/lib/libremosaic_daemon.so|f70c702f225ad5033de8ffc3bed188359ceb4c9c
 vendor/lib/libvidhance.so|9d34f9d488a96873adc772b22d4e7c8222972512
 vendor/lib/libvidhance_gyro.so|a1a586255a9978a54b38e53745f818fd344595ae
-vendor/lib/libXMFD_AgeGender.so|52fe8abb44c6633b6e854a1ba3dffeee51e94e61
 vendor/lib/libois_lc898122.so|6fbc32ddf20b142fa339897bd211ced4008abed3
--vendor/lib/libarcsoft_beautyshot_exin.so|24678d2d40f51a6fe10716bec1846a4fdad91e28
 vendor/lib/libmmcamera2_c2d_module.so|54dfab0fdfd8ac0abea95d3af3e2c13c3f69b06b
 vendor/lib/libmmcamera2_cpp_module.so|994bcb216146dab406a6448deab301ec848e99b5
 vendor/lib/libmmcamera2_dcrf.so|100a8471b03fb46b76405ba8004bde429c3fda11
@@ -626,7 +616,6 @@ vendor/lib/libmmcamera_faceproc.so|ac9c20af20272a35eb4eef227187572adbab81f7
 vendor/lib/libmmcamera_faceproc2.so|e291451cf99fc2279bc6d65992db6ed26792f0e4
 vendor/lib/libmmcamera_hdr_gb_lib.so|b626adf3cf2b3abb67f6bf36768cf80da5ca1b80
 vendor/lib/libmmcamera_imglib.so|5b977f3ac21408cea4e47635ee1d57fd4990db56
-vendor/lib/libmmcamera_interface.so|b4501b7402c7de6a675129a0395f2de6c34be6ae
 vendor/lib/libmmcamera_paaf_lib.so|8834cdbdf3a3142582c04ea374298bb41e872aaf
 vendor/lib/libmmcamera_pdaf.so|9f71dec3c0f7d7854448fe3480dbfe5d09253fef
 vendor/lib/libmmcamera_pdafcamif.so|48b81be912e82cb5ffc4aa29ed2b7a863687b849
@@ -673,10 +662,6 @@ vendor/lib/libmmcamera_isp_sub_module.so|69cec2208471e27fcdff48b23057f0bbefe1b32
 vendor/lib/libmmcamera_isp_template.so|a357b86a19576e6f320c9459ab48f41acb2a1f63
 vendor/lib/libmmcamera_isp_wb40.so|fc7f35ea344fc708b85eb689eca530f698c9b412
 
-# Camera Blobs "patched" - from FaArIsH
-vendor/lib/hw/camera.msm8953.so|cf89e4298efd98a761ed6087d47396497b7d3e9c
-vendor/lib/camera.msm8953.shim.so|81cd983fa40d23a569d4dcefd87624e88533f55d
-
 # Camera XML Configs - from Ysl PKQ1.181203.001/V10.3.2.0.PEFCNXM
 vendor/etc/camera/camera_config.xml|86abf6626be296bc3c13ab625b7fd27cbb0a024e
 vendor/etc/camera/csidtg_camera.xml|406e2dec13dc910415ff72fc5a7ee084c97ab61f
@@ -691,14 +676,6 @@ vendor/etc/camera/ysl_s5k3p8sp_sunny_cn_ii_chromatix.xml|f22ef1e97ea129336e0b376
 vendor/etc/camera/ysl_s5k3p8sp_sunny_ii_chromatix.xml|470f200d947d015acf9067a06e83d0b3c4e969a8
 vendor/etc/camera/ysl_s5k5e8_aux_ofilm_i_chromatix.xml|a311e2ec56a28a1976be7c498e490a2698929868
 vendor/etc/camera/ysl_s5k5e8_aux_sunny_ii_chromatix.xml|7dd51efb90c24542c0dc57531be201babd141a42
-
-# Camera HIDL - from Ysl PKQ1.181203.001/V10.3.2.0.PEFCNXM (HACK NEEDED)
-vendor/bin/hw/android.hardware.camera.provider@2.4-service|cc1e0e167eb26baf89c80cde770f2f33cdb1ae88
-vendor/lib/camera.device@1.0-impl.so|825d67ad0281517385f8f192575ae5e11fde3b17
-vendor/lib/camera.device@3.2-impl.so|b9038596956e910e8bca743465ffe1548077e826
-vendor/lib/camera.device@3.3-impl.so|7aaa2cd6a083518d522b10972a8ca0f480a1b00a
-vendor/lib/camera.device@3.4-impl.so|3f380549ae2befd085cda54edb2fcae875b60148
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so|4c871d4432a4267f99e2f621659ece1ecd4478eb
 
 # Camera firmware - from tissot pie
 vendor/firmware/cpp_firmware_v1_8_0.fw|26e2badbb4e3049243f0a176722f26879e7b87e8
