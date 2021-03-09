@@ -677,7 +677,11 @@ vendor/etc/camera/ysl_s5k3p8sp_sunny_ii_chromatix.xml|470f200d947d015acf9067a06e
 vendor/etc/camera/ysl_s5k5e8_aux_ofilm_i_chromatix.xml|a311e2ec56a28a1976be7c498e490a2698929868
 vendor/etc/camera/ysl_s5k5e8_aux_sunny_ii_chromatix.xml|7dd51efb90c24542c0dc57531be201babd141a42
 
-# Camera firmware - from tissot pie
+# Camera libs - from Ysl OPM1.171019.011/V10.3.1.0.OEFMIXM
+-vendor/lib/libts_detected_face_hal.so|247470e7610f93b0a21d943f5e47ab61a032b1e0
+-vendor/lib/libts_face_beautify_hal.so|4b8700003fd32f5a6a650821b86ed33e73992d10
+
+# Camera firmware - from sakura pie
 vendor/firmware/cpp_firmware_v1_8_0.fw|26e2badbb4e3049243f0a176722f26879e7b87e8
 vendor/firmware/cpp_firmware_v1_5_0.fw|ac19cd179b7b118bb3ea01a35fdfc78dc58164a1
 vendor/firmware/cpp_firmware_v1_6_0.fw|dcd3d1f904c7ee3d731f8f28b5f78f2503916ada
