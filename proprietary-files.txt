@@ -815,7 +815,7 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|b17a82a9740832bd686c3d4c4e36d0e
 vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so|09f4b85830f120db89945069cd30f997fbcfad6a
 vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|07bf28004086b972367c44703bd0247d7a78faf4
 
-# Charger - from tissot pie
+# Charger - from tissot-user 9 PKQ1.180917.001 V10.0.24.0.PDHMIXM release-keys
 vendor/bin/hvdcp_opti|7ee82dd264c7c349fb498111a61d5009ae9f0da2
 
 # Display Calibration - from Ysl PKQ1.181203.001/V10.3.2.0.PEFCNXM
@@ -1044,7 +1044,7 @@ vendor/lib64/libqti-iopd-client.so|512e12a6a86eb2dc5ad73a590c996d0e67e2ec1a
 vendor/lib64/vendor.qti.hardware.iop@1.0.so|ab7e9d16481a52a919cd7484eed480913ce29e66
 vendor/lib64/vendor.qti.hardware.iop@2.0.so|a99da96aa7abf8b9a4cb950113d7fe4ccbe4ff6c
 
-# Ipacm - from tissot V10.0.12.0.PDHMIXM
+# Ipacm - from tissot-user 9 PKQ1.180917.001 V10.0.24.0.PDHMIXM release-keys
 vendor/bin/ipacm-diag|9300f8da22941c2bfacc2ff96f83f2beebd4dcc1
 
 # Keystore - from LA.UM.8.6.2.r1-06600-89xx.0
@@ -1494,7 +1494,7 @@ vendor/lib/mediadrm/libwvdrmengine.so|248970aba6bd653fda3ce2da5d71e1ee0cea656d
 vendor/lib64/libwvhidl.so|72ebe6aa5c8f5a681979423149896b3d2201d974
 vendor/lib64/mediadrm/libwvdrmengine.so|449c86e23afe6f3f0055e3b2f9af4ecc23afabca
 
-# Wi-Fi - from tissot V10.0.12.0.PDHMIXM
+# Wi-Fi - from tissot-user 9 PKQ1.180917.001 V10.0.24.0.PDHMIXM release-keys
 vendor/bin/wcnss_service|f8ecd38a41b6b7f832380b489e0c9804c34174d8
 
 # Wi-Fi Display - from LA.UM.9.6.2.r1-03300-89xx.0
