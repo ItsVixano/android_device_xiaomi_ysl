@@ -188,9 +188,9 @@ PRODUCT_PACKAGES += \
     vendor.display.config@2.0 \
     vendor.display.config@2.0.vendor
 
-# Device-specific settings
+# Doze mode
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    XiaomiDoze
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -340,14 +340,12 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.target.rc \
     ueventd.qcom.rc \
-    init.camera.rc \
     init.goodix.sh \
     init.recovery.qcom.rc \
     init.recovery.qcom.usb.rc \
     init.ysl.rc
 
 PRODUCT_PACKAGES += \
-    init.camera.sh \
     init.qcom.bt.sh \
     init.qcom.post_boot.sh \
     move_time_data.sh \

@@ -24,7 +24,3 @@ allow init socket_device:sock_file { create };
 allow init socket_device:sock_file { setattr };
 allow init_fingerprint mnt_vendor_file:dir { read };
 allow init_fingerprint mnt_vendor_file:dir { open };
-
-# HAL3 Switch
-allow init socket_device:sock_file { create setattr unlink };
-

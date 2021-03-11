@@ -9,8 +9,5 @@ persist.camera.            u:object_r:camera_prop:s0
 hardware.camera.autohdr    u:object_r:camera_prop:s0
 wifi.active.interface      u:object_r:exported_wifi_prop:s0
 
-# HAL3 | HAL1 Switch
-persist.camera.profile										u:object_r:camera_prop:s0
-
 # Perf
 vendor.target.init.complete                     u:object_r:vendor_mpctl_prop:s0
