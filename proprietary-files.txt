@@ -64,11 +64,12 @@ vendor/lib64/soundfx/libaudiopreprocessing.so|28e2f7f8ab01a6cc8bc60a278e93704755
 vendor/lib64/soundfx/libqcbassboost.so|0d2afd6f2c5b9aa2397f3e1cb3287bf906cf8fb6
 vendor/lib64/soundfx/libqcvirt.so|bb046694512d412d6a04bd95ccb2b573454d9717
 
-# Audio ACDB - from ysl PKQ1.181203.001/V10.3.2.0.PEFCNXM
-vendor/etc/acdbdata/MTP/MTP_General_cal.acdb|02537094993f0a7c07ffd3ac8194122f32bca54c
-vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb|599e45c7811165031df865350489f5cd38451358
-vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb|f072143056cb40ea8735fca92b54bcb62169fd97
-vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp|29803647731a0cd64a0e707e4809e6c2a2d8dcf2
+# Audio ACDB - from ysl PKQ1.181203.001/V12.0.4.0.PEFCNXM
+vendor/etc/acdbdata/adsp_avs_config.acdb|2208f142a432cfc77652adab3e766cd0e44990b3
+vendor/etc/acdbdata/MTP/MTP_General_cal.acdb|728e0375cb1154dc79c063a5726084937afe315d
+vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb|b939606ae6134afa29957d29617eec3abfd0a26c
+vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb|ae6f372f51f9c33741dec5842efd078857985783
+vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp|44c0284d7fc1f4153a731d0792d71472109e9da2
 vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb|0364848ae2eb5505bdace46d6b8f1391a39095a8
 vendor/etc/acdbdata/QRD/QRD_General_cal.acdb|af85e877379f5844d8a87dac8187b1416fd89342
 vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb|0ae1d3c0dfd9c27afd030584b233d2f4b454a743
@@ -76,7 +77,6 @@ vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb|855422d5b156ed60f5f6bacb9458e85f6c6
 vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb|457bd7d412d9359297b9923cee264214d013547a
 vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb|ba8ab21912dd9a8c41014f6c26f2dca6d4476fdf
 vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb|b1a9a1497d1ecfab01e8a59d4c33410d409753a3
-vendor/etc/acdbdata/QRD/QRD_adsp_avs_config.acdb|6291d5e7457a962d9ba7bc0b3a33392abfe2cb27
 vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp|d4834ad4800efc020335227229be770708806e83
 vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Bluetooth_cal.acdb|d5f95223a28fd906c55e11e1f796ff24daad3d57
 vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_General_cal.acdb|2434f3c9e8b9e4557ac8279c786ebd367506908a
@@ -122,11 +122,11 @@ vendor/lib/libbluetooth_audio_session_qti.so|409fe8e1e261e7b004e1df5851ea3ae9f13
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|5f907ebfb73087861b30cf1c69e07aeca2096620
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so|d8cc4680848db03ddcfd99a53cbe1b15b7b282da
 
-# Camera actuators - from Ysl PKQ1.181203.001/V10.3.2.0.PEFCNXM
+# Camera actuators - from Ysl PKQ1.181203.001/V12.0.4.0.PEFCNXM
 vendor/lib/libactuator_ysl_imx486_ofilm_india_i_dw9714v.so|d0085c61213fb411521d137a8c049bcd4605672b
 vendor/lib/libactuator_ysl_ov12a10_sunny_ii_dw9714v.so|61b7777794ccdde2929ff81a5007ce86de573746
 
-# Camera chromatix - from Ysl PKQ1.181203.001/V10.3.2.0.PEFCNXM
+# Camera chromatix - from Ysl PKQ1.181203.001/V12.0.4.0.PEFCNXM
 vendor/lib/libchromatix_ysl_imx486_ofilm_cn_i_common.so|1e2f5fed923eeb46d0fe0415e46280c9416a34c4
 vendor/lib/libchromatix_ysl_imx486_ofilm_cn_i_cpp_hfr_120.so|f27c5e073ca9ce406c8daf72a8bdb4caf0a6910b
 vendor/lib/libchromatix_ysl_imx486_ofilm_cn_i_cpp_hfr_60.so|2994ea9720d14837251074199d4630f2d2892a5a
@@ -566,10 +566,10 @@ vendor/lib/libmmcamera_ysl_s5k5e8_aux_ofilm_i_eeprom.so|06acc0d3bb5187a793fcbcde
 vendor/lib/libmmcamera_ysl_s5k5e8_aux_sunny_ii.so|1dfea012939bc17309f1096115a912fc9b3c9327
 vendor/lib/libmmcamera_ysl_s5k5e8_aux_sunny_ii_eeprom.so|1c33b14878e905ad1fedc9295af68338689bd37d
 
-# Camera QCOM Daemon - from Ysl PKQ1.181203.001/V10.3.2.0.PEFCNXM
+# Camera QCOM Daemon - from Ysl PKQ1.181203.001/V12.0.4.0.PEFCNXM
 vendor/bin/mm-qcamera-daemon|c11a1df586110846b68d8792bf57a5ebf89c32ef
 
-# Camera QCOM Libraries - from Ysl PKQ1.181203.001/V10.3.2.0.PEFCNXM
+# Camera QCOM Libraries - from Ysl PKQ1.181203.001/V12.0.4.0.PEFCNXM
 vendor/lib/libarcsoft_high_dynamic_range.so|33cf4d4189dc15c9a54a3c8b03ce2283c0000c54
 vendor/lib/libflash_pmic.so|e3eeb71ddb5a78c082c2e659e3cd789e8e2b1311
 vendor/lib/libjpegdhw.so|8e4a9af4d5787164dc0ef198564a8dd61d4e36ad
@@ -586,7 +586,7 @@ vendor/lib/libqomx_jpegenc_pipe.so|f468ad5fa56687b86d882752b560191516645b5a
 vendor/lib/libqomx_jpegenc.so|bbb111e1b78232fd7c84a66bace331fba783024f
 vendor/lib/libremosaic_daemon.so|f70c702f225ad5033de8ffc3bed188359ceb4c9c
 vendor/lib/libvidhance.so|9d34f9d488a96873adc772b22d4e7c8222972512
-vendor/lib/libvidhance_gyro.so|a1a586255a9978a54b38e53745f818fd344595ae
+vendor/lib/libvidhance_gyro.so|93a21dbccecc8d88e65b3a57ea8e2686abf1ba35
 vendor/lib/libois_lc898122.so|6fbc32ddf20b142fa339897bd211ced4008abed3
 vendor/lib/libmmcamera2_c2d_module.so|54dfab0fdfd8ac0abea95d3af3e2c13c3f69b06b
 vendor/lib/libmmcamera2_cpp_module.so|994bcb216146dab406a6448deab301ec848e99b5
@@ -603,7 +603,7 @@ vendor/lib/libmmcamera2_pproc_modules.so|9c1b1fae30f1e0e6e8b71d9fa0f1e9805dbc4c8
 vendor/lib/libmmcamera2_q3a_core.so|d9f8c7cdf016788f395a9793d915a3b5d8049d72
 vendor/lib/libmmcamera2_sensor_modules.so|56e125e6f447570da66fdb8cf4d85144d531705b
 vendor/lib/libmmcamera2_stats_algorithm.so|e12c18c1e23fac6087db369c78fa9bcc36472baa
-vendor/lib/libmmcamera2_stats_modules.so|51626dab3829e843905b274b822e0dd29344bffa
+vendor/lib/libmmcamera2_stats_modules.so|ee07be834673bb614b574c502964961625d79147
 vendor/lib/libmmcamera_csidtg.so|72c5d2baf5b4a5d4c094d03d7a41c1a00016e25e
 vendor/lib/libmmcamera_dbg.so|3fd1c08ae90968a9cd469c6e95bc793a522b5b96
 vendor/lib/libmmcamera_dcrf_lib.so|f4bee118914d04911a6605712ce73d9bda07da9a
@@ -662,7 +662,7 @@ vendor/lib/libmmcamera_isp_sub_module.so|69cec2208471e27fcdff48b23057f0bbefe1b32
 vendor/lib/libmmcamera_isp_template.so|a357b86a19576e6f320c9459ab48f41acb2a1f63
 vendor/lib/libmmcamera_isp_wb40.so|fc7f35ea344fc708b85eb689eca530f698c9b412
 
-# Camera XML Configs - from Ysl PKQ1.181203.001/V10.3.2.0.PEFCNXM
+# Camera XML Configs - from Ysl PKQ1.181203.001/V12.0.4.0.PEFCNXM
 vendor/etc/camera/camera_config.xml|86abf6626be296bc3c13ab625b7fd27cbb0a024e
 vendor/etc/camera/csidtg_camera.xml|406e2dec13dc910415ff72fc5a7ee084c97ab61f
 vendor/etc/camera/csidtg_chromatix.xml|e95fad08db854906529b4df3c1b238ebbb36b2df
@@ -681,7 +681,7 @@ vendor/etc/camera/ysl_s5k5e8_aux_sunny_ii_chromatix.xml|7dd51efb90c24542c0dc5753
 -vendor/lib/libts_detected_face_hal.so|247470e7610f93b0a21d943f5e47ab61a032b1e0
 -vendor/lib/libts_face_beautify_hal.so|4b8700003fd32f5a6a650821b86ed33e73992d10
 
-# Camera firmware - from sakura pie
+# Camera firmware - from Ysl PKQ1.181203.001/V12.0.4.0.PEFCNXM
 vendor/firmware/cpp_firmware_v1_8_0.fw|26e2badbb4e3049243f0a176722f26879e7b87e8
 vendor/firmware/cpp_firmware_v1_5_0.fw|ac19cd179b7b118bb3ea01a35fdfc78dc58164a1
 vendor/firmware/cpp_firmware_v1_6_0.fw|dcd3d1f904c7ee3d731f8f28b5f78f2503916ada
@@ -845,21 +845,21 @@ vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|17f648402c874e4f981caadd9
 vendor/lib64/vendor.qti.esepowermanager@1.0.so|a114629809e67015a14e5e367c6fb374adaafbc2
 vendor/lib64/vendor.qti.esepowermanager@1.1.so|f111cf42439d28fe88d9ebf6b6a1c44b729a3194
 
-# Fingerprint - from Ysl PKQ1.181203.001/V10.3.2.0.PEFCNXM PKQ1.181203.001/V10.3.2.0.PEFCNXM
+# Fingerprint - from Ysl PKQ1.181203.001/V12.0.4.0.PEFCNXM
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk|c52614fc60c72005777e4d8253935b8e898b4608
-lib/android.hardware.biometrics.fingerprint@2.1.so|b227d968f0e1860232faded2b3926b5c076c170d
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|deb870b5c22e512c4cb3189f896e3983063932b5
+lib/android.hardware.biometrics.fingerprint@2.1.so|d80e596cd45d77ab506aa7837d88939387d6cd78
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|7707fe98d35fb581b126351074f8a137da95da8e
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|2920e21d117fb8300453675984dd2faeba1866c8
 vendor/etc/permissions/com.fingerprints.extension.xml|de711d8827e1d321b22b60fd75a204e8928f9c6d
 vendor/framework/com.fingerprints.extension.jar|560bc65bb9483fd1cd56ec2305c0ee804e3a0120
-vendor/lib/com.fingerprints.extension@1.0.so|6b108191eb7a6d46cc31b666211e06a00988d037
+vendor/lib/com.fingerprints.extension@1.0.so|e3f385481f0b5db9d85b6791a97cba334e7328a6
 vendor/lib/hw/fingerprint.default.so|d64caf1cf509fa6eeb142e9913016a3e0a68825f
-vendor/lib/hw/fingerprint.fpc.default.so|51eaaa8ce07f8244b255733213d7133584076c16
+vendor/lib/hw/fingerprint.fpc.default.so|0561f17d06afca20e65eaceb49cc839de38295be
 vendor/lib/libgf_ca.so|c9aa8ca6f5a0e068f2eb800e78252b4164fe3d2d
 vendor/lib/libgf_hal.so|8548dd9a56dfe83e355e804bbd7b0cdf2cec4171
 vendor/lib/libvendor.goodix.hardware.fingerprint@1.0-service.so|62acb9c6bffed5109301d7f0cc14c73eb5ce5662
 vendor/lib/libvendor.goodix.hardware.fingerprint@1.0.so|4715ee65ca0f2ae4de91d84afb6e796c12fb3c0b
-vendor/lib/vendor.qti.hardware.fingerprint@1.0.so|e45afb2eb55d1efec89e4789f7bc6a28adfb9a1f
+vendor/lib/vendor.qti.hardware.fingerprint@1.0.so|eba263a51ebb4754437c1639aa2cab772af92c26
 
 # FM - from LA.UM.9.6.2.r1-03600-89xx.0
 system_ext/lib/fm_helium.so|e1393e3bc7b9778551db1ed5be99d0dadc6d2b0b
