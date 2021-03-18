@@ -94,6 +94,7 @@ PRODUCT_PACKAGES += \
     audio.primary.msm8953 \
     audio.r_submix.default \
     audio.usb.default \
+    libaudiopreprocessing \
     libaudioroute \
     libaacwrapper \
     libaudio-resampler \
@@ -101,6 +102,7 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
     libvolumelistener \
+    libtinycompress \
     libnbaio
 
 # A2DP
