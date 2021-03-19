@@ -238,8 +238,11 @@ PRODUCT_PACKAGES += \
 
 # IMS
 PRODUCT_PACKAGES += \
+    android.hardware.camera.device@3.6 \
+    android.hardware.camera.provider@2.6 \
     ims-ext-common \
-    ims_ext_common.xml
+    ims_ext_common.xml \
+    vendor.qti.hardware.camera.device@1.0
 
 # Input
 PRODUCT_COPY_FILES += \
