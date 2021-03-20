@@ -1,2 +1,0 @@
-allow toolbox toolbox:capability { sys_admin };
-allow toolbox self:capability kill;

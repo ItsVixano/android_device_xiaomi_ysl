@@ -1,3 +1,2 @@
 set_prop(netmgrd, vendor_xlat_prop)
-allow netmgrd netmgrd:capability { sys_admin };
 allow netmgrd vendor_default_prop:property_service set;

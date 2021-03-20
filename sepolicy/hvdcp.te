@@ -1,4 +1,2 @@
-allow hvdcp sysfs:dir { open read };
-allow hvdcp sysfs:file { read };
-allow hvdcp sysfs:file { open };
-allow hvdcp hvdcp:capability { sys_admin };
+allow hvdcp sysfs:dir rw_file_perms;
+allow hvdcp sysfs:file rw_file_perms;
