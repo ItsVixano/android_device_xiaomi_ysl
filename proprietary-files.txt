@@ -1097,20 +1097,24 @@ vendor/bin/msm_irqbalance|c0910fb319bb8287f176f26078241299455baad0
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|5d30808301c7e90cb70478f6f7e38ac593e8cfdf
 vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|459b4c23550a56ac545f78c6d391f3d7dd9ba45b
 vendor/etc/perf/commonresourceconfigs.xml|47651621904d0a0ea42b72bc9a0df27f99eaeab6
-vendor/etc/perf/perfboostsconfig.xml|cd57eaf1a8385ecf34b169835d6148df39e2f55e
+vendor/etc/perf/perfboostsconfig.xml|98bb46d8f59e3fe0f9b8f748ecad911281c3446b
 vendor/etc/perf/perfconfigstore.xml|de7a673eca27fb44b7dcd34c60d21f7ffbd2b9d8
 vendor/etc/perf/targetconfig.xml|aa20c25397df1455206965737f82d44d44430e45
 vendor/etc/perf/targetresourceconfigs.xml|a913faa5efddec9542ef0db3b57a60ddb6bb6e1b
 vendor/lib/libperfconfig.so|64bcaec5ae84c557b09098d6f095968fa58cd72b
 vendor/lib/libperfgluelayer.so|3570e47f1f84c2854a6cee5eec159b20ebf20f22
-vendor/lib/libqti-perfd.so|60275da4d9e2e71f91d8841ece26b11eb8e77248
+vendor/lib/libperfioctl.so|3b2d1bef61f7cbf0384aa6cc857a6bb17d5b4c5e
 vendor/lib/libqti-perfd-client.so|35c5fb10e0dfc1302460200f7757c3329eb42280
+vendor/lib/libqti-perfd.so|60275da4d9e2e71f91d8841ece26b11eb8e77248
 vendor/lib/libqti-util.so|b90cf5d6dab54445906fd94447d6d624586865ed
+vendor/lib/libqti-utils.so|941c03fd2b1ff136a21239471462b036255b451c
 vendor/lib64/libperfconfig.so|077b47e0a5562ecfb0c7274833e8c4e4c9455690
 vendor/lib64/libperfgluelayer.so|f0c16ae2eba0bf355e5ffd194f945f4924cf7d46
-vendor/lib64/libqti-perfd.so|3446c05a2ad52222b339f47d4c6d6b85198e2b2d
+vendor/lib64/libperfioctl.so|7bf289a68671f675ded7fb62e561e59832983138
 vendor/lib64/libqti-perfd-client.so|cf1db630be11536a27a0ac66646c0024d78c80f7
+vendor/lib64/libqti-perfd.so|3446c05a2ad52222b339f47d4c6d6b85198e2b2d
 vendor/lib64/libqti-util.so|834cc98315887e57a5f229f9ee1a0d20d0d8f4c3
+vendor/lib64/libqti-utils.so|e734331e086c9b78852871312429ce69092775ca
 
 # Peripheral manager - from LA.UM.9.6.2.r1-03600-89xx.0
 vendor/bin/pm-proxy|4d9a24cf5d90f2f320fb838a190fcef9e070ef57
