@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "RevengeOS-Devices/vendor_xiaomi_ysl",
+    "target_path": "vendor/xiaomi/ysl",
+    "branch": "r11.0",
+    "remote": "github"
+  },
+  {
+    "repository": "RevengeOS-Devices/kernel_xiaomi_ysl",
+    "target_path": "kernel/xiaomi/ysl",
+    "branch": "r11.0",
+    "remote": "github"
+  },
+  {
+    "repository": "Jabiyeff/android_hardware_qcom_display",
+    "target_path": "hardware/qcom-caf/msm8996-ysl/display",
+    "branch": "caf-msm8996-r",
+    "remote": "github"
+  },
+  {
+    "repository": "Jabiyeff/android_hardware_qcom_media",
+    "target_path": "hardware/qcom-caf/msm8996-ysl/media",
+    "branch": "caf-msm8996-r",
+    "remote": "github"
+  },
+  {
+    "repository": "LineageOS/android_hardware_qcom_audio",
+    "target_path": "hardware/qcom-caf/msm8996-ysl/audio",
+    "branch": "lineage-18.1-caf-msm8996",
+    "remote": "github"
+  }
+]
