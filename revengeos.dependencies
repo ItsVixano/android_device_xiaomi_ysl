@@ -1,15 +1,13 @@
 [
   {
-    "repository": "RevengeOS-Devices/vendor_xiaomi_ysl",
-    "target_path": "vendor/xiaomi/ysl",
-    "branch": "r11.0",
-    "remote": "github"
+    "remote": "devices",
+    "repository": "vendor_xiaomi_ysl",
+    "target_path": "vendor/xiaomi/ysl"
   },
   {
-    "repository": "RevengeOS-Devices/kernel_xiaomi_ysl",
-    "target_path": "kernel/xiaomi/ysl",
-    "branch": "r11.0",
-    "remote": "github"
+    "remote": "devices",
+    "repository": "kernel_xiaomi_ysl",
+    "target_path": "kernel/xiaomi/ysl"
   },
   {
     "repository": "Jabiyeff/android_hardware_qcom_display",
