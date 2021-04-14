@@ -63,26 +63,14 @@ vendor/lib64/soundfx/libqcvirt.so|bb046694512d412d6a04bd95ccb2b573454d9717
 
 # Audio ACDB - from ysl PKQ1.181203.001/V12.0.4.0.PEFCNXM
 vendor/etc/acdbdata/adsp_avs_config.acdb|2208f142a432cfc77652adab3e766cd0e44990b3
+vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb|54165e0cc2170ba27eaf128b194f361204008148
 vendor/etc/acdbdata/MTP/MTP_General_cal.acdb|728e0375cb1154dc79c063a5726084937afe315d
 vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb|b939606ae6134afa29957d29617eec3abfd0a26c
 vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb|ae6f372f51f9c33741dec5842efd078857985783
+vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb|fccd5038e282e59edd9b62ae8f2f274f19abaae2
+vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb|fe0160756c94ff41c1669e82e3a8ef8e82841db7
+vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb|648159a5a7cd7760a512f27a226741336ebabc9e
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp|44c0284d7fc1f4153a731d0792d71472109e9da2
-vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb|0364848ae2eb5505bdace46d6b8f1391a39095a8
-vendor/etc/acdbdata/QRD/QRD_General_cal.acdb|af85e877379f5844d8a87dac8187b1416fd89342
-vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb|0ae1d3c0dfd9c27afd030584b233d2f4b454a743
-vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb|855422d5b156ed60f5f6bacb9458e85f6c67ed12
-vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb|457bd7d412d9359297b9923cee264214d013547a
-vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb|ba8ab21912dd9a8c41014f6c26f2dca6d4476fdf
-vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb|b1a9a1497d1ecfab01e8a59d4c33410d409753a3
-vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp|d4834ad4800efc020335227229be770708806e83
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Bluetooth_cal.acdb|d5f95223a28fd906c55e11e1f796ff24daad3d57
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_General_cal.acdb|2434f3c9e8b9e4557ac8279c786ebd367506908a
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Global_cal.acdb|6b3c7cec6a9c9c2db8b90e53eb61983e600c700a
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Handset_cal.acdb|6edc52983d7d627af281ee46f4020f2a6b5cdb07
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Hdmi_cal.acdb|0b6dc414ed5ebfc8da222e753b604669fe00c04c
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Headset_cal.acdb|4e8967e5f524802d86eaf9d01ae91d206c7a15b5
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Speaker_cal.acdb|1a936249f86e89b2866aecfc14c6e4a38b12ac8d
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_workspaceFile.qwsp|2a4c5a4dd0771a4df95069b8b7c45e54040e9518
 
 # ANT+ (vendor) - from LA.UM.8.6.2.r1-03700-89xx.0
 vendor/lib64/com.qualcomm.qti.ant@1.0.so|29ecc1a9134dd2146f358e65c830059d3fa6c6d9
@@ -859,19 +847,11 @@ vendor/lib/libvendor.goodix.hardware.fingerprint@1.0.so|4715ee65ca0f2ae4de91d84a
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so|eba263a51ebb4754437c1639aa2cab772af92c26
 
 # FM - from LA.UM.9.6.2.r1-03600-89xx.0
-system_ext/lib/fm_helium.so|e1393e3bc7b9778551db1ed5be99d0dadc6d2b0b
-system_ext/lib/libfm-hci.so|fe72e2f500a57e2a46cd4ed66649509b5c15e27a
-system_ext/lib/vendor.qti.hardware.fm@1.0.so|8c13d149dd888cbfa8afb3f7e2b59d1dca8f2a42
 system_ext/lib64/fm_helium.so|55ef376cc802574df92025bebaba1cebcc74a918
 system_ext/lib64/libfm-hci.so|0cfbf3d84724428721973cc7ad22f5d1e1368591
-system_ext/lib64/vendor.qti.hardware.fm@1.0.so|4a2522113d6b737a87d3b43233f1afa94d9e45ad
-vendor/bin/fm_qsoc_patches|84e197364b2ec81cb9dfff97af49b30afa06b6e9
-vendor/lib/ftm_fm_lib.so|5a9510e0eba7fdbbed57d0f296f13a8f59eaf43b
-vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|b685a3ec493c8168c2e168b7e5e3b2e8f39e9b2e
-vendor/lib/vendor.qti.hardware.fm@1.0.so|7288b0ee5759bf2bbebba9b76b274aa4faa9c4df
-vendor/lib64/ftm_fm_lib.so|cf59c54bece5b0e30d3cbf98aff1922b13ceecd2
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|66c50040a46dfa7fcefda85ddd009bff2b76f6b8
+-system_ext/lib64/vendor.qti.hardware.fm@1.0.so|4a2522113d6b737a87d3b43233f1afa94d9e45ad
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|17e86e9a2054db733d955fcf1066f6e06a44fb21
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|66c50040a46dfa7fcefda85ddd009bff2b76f6b8
 
 # Gatekeeper - from LA.UM.8.6.2.r1-06600-89xx.0
 vendor/lib/hw/gatekeeper.msm8953.so|c153dbbd2c31ccee8633837961ce79909257af04
