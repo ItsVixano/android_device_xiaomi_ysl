@@ -820,16 +820,6 @@ vendor/lib64/libsecureui.so|dc3ccde15c3bdbc14da9fdc63dbf30973c5fe1b1
 vendor/lib64/libsecureui_svcsock.so|a7fdcd8001d4cdd9a30eb1ccc129324c398cc203
 vendor/lib64/libssd.so|33d717f793c2579e3bd17b5ce6534cb68c12887d
 
-# ESE-Powermanager - from LA.UM.9.6.2.r1-03600-89xx.0
-vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|0de9474912b1206cfe17459afca9ebb28bdd2468
-vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc|3c024c7135ec3dd8658624509ee61396a74f1ede
-vendor/lib/hw/vendor.qti.esepowermanager@1.1-impl.so|fbd4ced5df7529fac123bc3cc5426cb8c2bd2842
-vendor/lib/vendor.qti.esepowermanager@1.0.so|7ad9a8037636ddd0871308d9728379d60eab2e27
-vendor/lib/vendor.qti.esepowermanager@1.1.so|12a5cb85a16f569db95de516810fb645fac01754
-vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|17f648402c874e4f981caadd91438a525089e35d
-vendor/lib64/vendor.qti.esepowermanager@1.0.so|a114629809e67015a14e5e367c6fb374adaafbc2
-vendor/lib64/vendor.qti.esepowermanager@1.1.so|f111cf42439d28fe88d9ebf6b6a1c44b729a3194
-
 # Fingerprint - from Ysl PKQ1.181203.001/V12.0.4.0.PEFCNXM
 -vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk|c52614fc60c72005777e4d8253935b8e898b4608
 lib/android.hardware.biometrics.fingerprint@2.1.so|d80e596cd45d77ab506aa7837d88939387d6cd78
@@ -984,18 +974,6 @@ vendor/firmware/a506_zap.b02|b79957c47f0a6757ac1d721dbe06551508454634
 vendor/firmware/a506_zap.mdt|2945f21b47cf35bf22d8cb68e937c34ea64212c0
 vendor/firmware/a530_pfp.fw|448f9db8271fefb08348cbc50409e8e95bd93f78
 vendor/firmware/a530_pm4.fw|5741a28752355b478d455635bab008028ff7e1c6
-
-# IOP - from LA.UM.9.6.2.r1-03600-89xx.0
-system_ext/lib/libqti-iopd-client_system.so|6b510018995acf38e44736749027064d37189390
-system_ext/lib/vendor.qti.hardware.iop@2.0.so|aad67526568b33128f087c7f5f7a4e81da26b0bc
-system_ext/lib64/libqti-iopd-client_system.so|af55411ae2f911fcf698f80cd2563ecd1215f706
-system_ext/lib64/vendor.qti.hardware.iop@2.0.so|3da38cf59259d9327c1d05e7f9eed72628998303
-vendor/lib/libqti-iopd-client.so|7ce1fb3256642e8ce2303e66f8224fe52c64c62c
-vendor/lib/vendor.qti.hardware.iop@1.0.so|51233dada4b92e7c6a9fc24e7d00b073b53b1fb0
-vendor/lib/vendor.qti.hardware.iop@2.0.so|a4fe30b74cbba04f105b60500b750719c9187ee8
-vendor/lib64/libqti-iopd-client.so|512e12a6a86eb2dc5ad73a590c996d0e67e2ec1a
-vendor/lib64/vendor.qti.hardware.iop@1.0.so|ab7e9d16481a52a919cd7484eed480913ce29e66
-vendor/lib64/vendor.qti.hardware.iop@2.0.so|a99da96aa7abf8b9a4cb950113d7fe4ccbe4ff6c
 
 # Ipacm - from tissot-user 9 PKQ1.180917.001 V10.0.24.0.PDHMIXM release-keys
 vendor/bin/ipacm-diag|9300f8da22941c2bfacc2ff96f83f2beebd4dcc1
