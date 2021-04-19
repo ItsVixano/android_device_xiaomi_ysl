@@ -2,11 +2,6 @@
 # system.prop for ysl
 #
 
-# ART
-PRODUCT_PROPERTY_OVERRIDES += \
-dalvik.vm.dex2oat-filter=speed \
-dalvik.vm.image-dex2oat-filter=speed
-
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
 af.fast_track_multiplier=2 \
@@ -116,7 +111,7 @@ debug.egl.hw=0 \
 debug.enable.sglscale=1 \
 debug.gralloc.enable_fb_ubwc=1 \
 debug.mdpcomp.logs=0 \
-debug.sf.hw=1 \
+debug.sf.hw=0 \
 debug.sf.enable_hwc_vds=1 \
 debug.sdm.support_writeback=0 \
 debug.sf.latch_unsignaled=1 \
@@ -185,7 +180,6 @@ ro.vendor.qti.sys.fw.bservice_enable=true
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.sys.fw.dex2oat_thread_count=8 \
 ro.vendor.extension_library=libqti-perfd-client.so
 
 # Netmgrd
@@ -245,19 +239,6 @@ persist.vendor.ims.disableDebugDataPathLogs=1 \
 persist.vendor.ims.disableDebugLogs=1 \
 persist.vendor.ims.disableSigHandler=1 \
 persist.vendor.ims.disableQXDMLogs=1
-
-# SurfaceFlinger
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-ro.surface_flinger.protected_contents=true \
-ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
-ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
-
-PRODUCT_PROPERTY_OVERRIDES += \
-debug.sf.early_phase_offset_ns=11600000 \
-debug.sf.early_app_phase_offset_ns=11600000 \
-debug.sf.early_gl_phase_offset_ns=3000000 \
-debug.sf.early_gl_app_phase_offset_ns=15000000 \
-debug.sf.phase_offset_threshold_for_next_vsync_ns=11600000
 
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
