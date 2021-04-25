@@ -103,10 +103,6 @@ persist.vendor.dpm.loglevel=0 \
 persist.vendor.dpm.nsrm.bkg.evt=3955 \
 persist.vendor.dpmhalservice.enable=1
 
-# Coresight
-PRODUCT_PROPERTY_OVERRIDES += \
-persist.debug.coresight.config=stm-events
-
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
 debug.egl.hw=0 \
