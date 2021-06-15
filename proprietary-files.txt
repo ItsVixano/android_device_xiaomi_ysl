@@ -1,4 +1,4 @@
-# ADSP - from daisy-user 10 QKQ1.191002.002 V11.0.19.0.QDLMIXM release-keys
+# ADSP - from daisy-user 10 QKQ1.191002.002 V11.0.20.0.QDLMIXM release-keys
 vendor/bin/adsprpcd|a5e878691577485c9f7ee33dfe02384a13f0a265
 vendor/lib/libadsprpc.so|e00e8dcb88e9b204fd90bb2c32afcc7fa28dbad1
 vendor/lib/libadsp_default_listener.so|c9a1ee00b32a93a9496ec84393afa0625e929eed
@@ -13,7 +13,7 @@ vendor/lib64/libfastcvopt.so|f5e25aa055a57e23530b858bf7dd204a6009effc
 vendor/lib64/libmdsprpc.so|38de6a53d3c2ff60a253c7c6a0d3b46962e8e194
 vendor/lib64/libsdsprpc.so|1e89a33bae491abe4c81bb77c8fabf59bff4b853
 
-# ADSP modules - from daisy-user 10 QKQ1.191002.002 V11.0.19.0.QDLMIXM release-keys
+# ADSP modules - from daisy-user 10 QKQ1.191002.002 V11.0.20.0.QDLMIXM release-keys
 vendor/lib/rfsa/adsp/dirac_resource.dar|d9b3693eab8c520ef859236b8235752188b7cba0
 vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so|035272c1d77bcd04e3a838056d512964744c9322
 vendor/lib/rfsa/adsp/libadsp_hvx_skel.so|6a1d6ee55cc65d0f12f6a9bfd04823b46d2d6a24
@@ -28,7 +28,7 @@ vendor/lib/rfsa/adsp/libfastcvadsp_skel.so|1ff4a48009e88435d93fd2b9b0c5ea59cedbb
 vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so|f4d8675a46c5e52add8f8e90e35b29cd33ac582b
 vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so|b9f68e320d24e9c51871a2056e1f47239bd1cb40
 
-# Audio - from daisy-user 10 QKQ1.191002.002 V11.0.19.0.QDLMIXM release-keys
+# Audio - from daisy-user 10 QKQ1.191002.002 V11.0.20.0.QDLMIXM release-keys
 vendor/bin/audioflacapp|a8ae278497715aa53f6fb86d5f5af225da0fc5b0
 vendor/lib/libacdb-fts.so|9fb9fe8f1e22e38e41f1517b8f206a50bbb24419
 vendor/lib/libacdbloader.so|f33941720463b3c8215fc644b7d638c6d8ab74c7
@@ -682,7 +682,7 @@ vendor/firmware/cpp_firmware_v1_1_6.fw|6b2c9fe0a43a9ce86a921e18faffe4d0a35746ee
 # ConsumerIr - from onclite patched
 vendor/lib64/hw/consumerir.default.so|23729cc5934cdc80a1ad221c8e85b29aa428ac2c
 
-# CDSP - from daisy-user 10 QKQ1.191002.002 V11.0.19.0.QDLMIXM release-keys
+# CDSP - from daisy-user 10 QKQ1.191002.002 V11.0.20.0.QDLMIXM release-keys
 vendor/bin/cdsprpcd|a1b4c35ffdef184cc1334f3d1cf4fa56546d3621
 vendor/lib/libcdsprpc.so|ad00bd9a9f8e43403fcaf3101cce2b452a636032
 vendor/lib/libcdsp_default_listener.so|5c035d22a100501d090c15786ac720eecec15624
@@ -781,7 +781,7 @@ vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|b17a82a9740832bd686c3d4c4e36d0e
 vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so|09f4b85830f120db89945069cd30f997fbcfad6a
 vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so|07bf28004086b972367c44703bd0247d7a78faf4
 
-# Charger - from daisy-user 10 QKQ1.191002.002 V11.0.19.0.QDLMIXM release-keys
+# Charger - from daisy-user 10 QKQ1.191002.002 V11.0.20.0.QDLMIXM release-keys
 vendor/bin/hvdcp_opti|bd0808db92452c5fd7ec272a35924f23fb4ffa01
 
 # DPM - from LA.UM.9.6.2.r1-03600-89xx.0
@@ -804,7 +804,7 @@ vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|c5c893e86d38b8aa8cd277ccb8b011fb2f19995e
 vendor/lib64/libdpmqmihal.so|ffcd85e1f6bf7d54f37953edc2cb2c4a61fc894a
 
-# DRM - from daisy-user 10 QKQ1.191002.002 V11.0.19.0.QDLMIXM release-keys
+# DRM - from daisy-user 10 QKQ1.191002.002 V11.0.20.0.QDLMIXM release-keys
 vendor/bin/qseecomd|98e59e53f6bf2e585120f07f93d1265acfa80e7b
 vendor/lib/libQSEEComAPI.so|199f80aa6b940204fe1119aa196a3f939a2d499e
 vendor/lib64/libGPreqcancel.so|a5f7f9679fdd081c9b9ea8f5c4a3714761ca997c
@@ -967,7 +967,7 @@ vendor/lib64/libsdm-diag.so|2e6e0f50786a8ab106ddd74ade69c58973bd3e73
 vendor/lib64/libsdmextension.so|945e561d0d012bca5fd3b598968bc81db77e868e
 vendor/lib64/libtinyxml2_1.so|92101861d95cbdf9625d192d0b2295baa5960b68
 
-# Graphics firmware - from daisy-user 10 QKQ1.191002.002 V11.0.19.0.QDLMIXM release-keys
+# Graphics firmware - from daisy-user 10 QKQ1.191002.002 V11.0.20.0.QDLMIXM release-keys
 vendor/firmware/a506_zap.b00|c45a7b34456844f5deb73e2dce79cbfcfb9ae71c
 vendor/firmware/a506_zap.b01|374b5c4a2212b2636d5dfc2deda66b56b6bf2d03
 vendor/firmware/a506_zap.b02|b79957c47f0a6757ac1d721dbe06551508454634
@@ -975,7 +975,7 @@ vendor/firmware/a506_zap.mdt|621df918f1d6ef0a0c3fe25c8f6a58d56af4b26a
 vendor/firmware/a530_pfp.fw|c19e1905c15622d7bb02409e6748959bceda9b08
 vendor/firmware/a530_pm4.fw|b1cf625b5552b99839687f479c124ac5daca2ca2
 
-# Ipacm - from daisy-user 10 QKQ1.191002.002 V11.0.19.0.QDLMIXM release-keys
+# Ipacm - from daisy-user 10 QKQ1.191002.002 V11.0.20.0.QDLMIXM release-keys
 vendor/bin/ipacm-diag|f08be0dfb0cedecfdf8fae261a3b06f416b56dc2
 
 # Keystore - from LA.UM.8.6.2.r1-06600-89xx.0
@@ -994,14 +994,14 @@ vendor/lib64/libkeymasterdeviceutils.so|3b4d1b97549b15d85254739613fc8d772f716806
 vendor/lib64/libkeymasterprovision.so|7ad925d46a558a8c086a61e022eef328b2516f43
 vendor/lib64/libkeymasterutils.so|4c8273711b5ba1a503d4581f661ed20a1578810d
 
-# Latency - from daisy-user 10 QKQ1.191002.002 V11.0.19.0.QDLMIXM release-keys
+# Latency - from daisy-user 10 QKQ1.191002.002 V11.0.20.0.QDLMIXM release-keys
 product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|c6c5d5bbf50b068df0184aef8551b95daa5f4791
 product/framework/vendor.qti.latency-V2.0-java.jar|d345e24271b83faecdb1abe1361db812fae0646f
 product/lib64/vendor.qti.hardware.data.latency@1.0.so|53794a8d4dfeb0fbd233a4b128749a06d515c3f7
 product/lib64/vendor.qti.latency@2.0.so|0144eec541989f450695ec8cbdd595df4009fe1a
 vendor/lib64/vendor.qti.latency@2.0.so|0144eec541989f450695ec8cbdd595df4009fe1a
 
-# Listen - from daisy-user 10 QKQ1.191002.002 V11.0.19.0.QDLMIXM release-keys
+# Listen - from daisy-user 10 QKQ1.191002.002 V11.0.20.0.QDLMIXM release-keys
 vendor/lib/hw/sound_trigger.primary.msm8953.so|991e0be9c5743d5d3394eb2f4b82740c3c0616f7
 vendor/lib/libadpcmdec.so|be5fdf08a08b635816381e61b6bbf2874c62f613
 vendor/lib/libgcs-calwrapper.so|96178681d6704bb457f006f9fa8b6bcc71513c8a
@@ -1365,8 +1365,8 @@ vendor/lib64/libscvePanorama_lite.so|66a74d3b441bb2e8e5011187f0b2e40bcb77693c
 vendor/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so|f0fd75e94929412ae02cb32c38b05faef8cfd259
 vendor/lib64/vendor.qti.hardware.scve.panorama@1.0.so|ad0bfe312f3d63cf5414087fb2aef4459ec72183
 
-# Sensors - from daisy-user 10 QKQ1.191002.002 V11.0.19.0.QDLMIXM release-keys
-vendor/bin/sensors.qti|710b95b8fbec649b63204372988e0d4f4641fcf4
+# Sensors - from daisy-user 10 QKQ1.191002.002 V11.0.20.0.QDLMIXM release-keys
+vendor/bin/sensors.qti|a0701f889c2af8dd964a8f0300761e91a3748815
 vendor/lib/hw/activity_recognition.msm8953.so|1c7334f56182513bddefcb3b655064cca1121e21
 vendor/lib/libsensor1.so|a3bff5966ef0dd0623d385da9a8809f6dabb11f3
 vendor/lib/libsensor_reg.so|8f113416861ab8c14613ebf3ea6eeb9997971624
@@ -1397,14 +1397,14 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|313677dd28de6f6b2a5cf8b136d8ce0723bb5a65
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|b478f9ba87abd265ac15a154ab7412fed5839664
 
-# Widevine - from daisy-user 10 QKQ1.191002.002 V11.0.19.0.QDLMIXM release-keys
+# Widevine - from daisy-user 10 QKQ1.191002.002 V11.0.20.0.QDLMIXM release-keys
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|e130b8f1c8d46d8a185b00cba5ff8a2a871ee94c
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|dee5b7838ac561a2292e89fc0c4ccd1932224215
 vendor/lib/mediadrm/libwvdrmengine.so|248970aba6bd653fda3ce2da5d71e1ee0cea656d
 vendor/lib64/libwvhidl.so|72ebe6aa5c8f5a681979423149896b3d2201d974
 vendor/lib64/mediadrm/libwvdrmengine.so|449c86e23afe6f3f0055e3b2f9af4ecc23afabca
 
-# Wi-Fi - from daisy-user 10 QKQ1.191002.002 V11.0.19.0.QDLMIXM release-keys
+# Wi-Fi - from daisy-user 10 QKQ1.191002.002 V11.0.20.0.QDLMIXM release-keys
 vendor/bin/wcnss_service|1a7da5ec11248ea69af665d711a846e4cc7c95be
 
 # Wi-Fi Display - from LA.UM.9.6.2.r1-03300-89xx.0
